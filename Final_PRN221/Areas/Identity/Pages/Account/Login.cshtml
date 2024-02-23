@@ -4,14 +4,26 @@
 @{
     ViewData["Title"] = "Log in";
 }
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Login and Signup Form </title>
+    <!-- CSS -->
+    <link href="~/Content/css/login.css" rel="stylesheet" />
+    <script src="~/Content/js/login.js"></script>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-<h1>@ViewData["Title"]</h1>
-<div class="row">
-    <div class="col-md-4 mx-auto rounded border p-3">
-        <section>
-            <h2>Please log in.</h2>
-            <hr />
-            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+</head>
+<body>
+   
+    <h1>@ViewData["Title"]</h1>
+    <section class="container forms">
+        <div class="form login">
             <form id="account" method="post">
 
                 <div class="" mb-3">
@@ -47,9 +59,22 @@
                     <a class="btn-link" id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
                 </div>
             </form>
-        </section>
-    </div>
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
 
-</div>
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="~/Content/css/images/google.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+        </div>
+    </section>
 
-
+    <script src="js/script.js"></script>
+</body>
+</html>

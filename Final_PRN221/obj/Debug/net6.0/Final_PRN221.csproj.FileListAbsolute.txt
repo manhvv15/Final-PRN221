@@ -285,3 +285,4 @@ C:\Users\hp\Documents\Ki7\PRN221\Final_PRN221\Final_PRN221\bin\Debug\net6.0\runt
 C:\Users\hp\Documents\Ki7\PRN221\Final_PRN221\Final_PRN221\obj\Debug\net6.0\Final_PRN221.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\hp\Documents\Ki7\PRN221\Final_PRN221\Final_PRN221\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\Users\hp\Documents\Ki7\PRN221\Final_PRN221\Final_PRN221\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\hp\Documents\Ki7\PRN221\Final_PRN221\Final_PRN221\obj\Debug\net6.0\Final_PRN221.sourcelink.json
